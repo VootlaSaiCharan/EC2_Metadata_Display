@@ -92,23 +92,23 @@ echo "                <div class=\"instance-card__name\">Charan Your EC2 Instanc
 echo "                <div class=\"instance-card-inf\">" >> index.html
 echo "                    <div class=\"instance-card-inf__item\">" >> index.html
 echo "                        <div class=\"instance-card-inf__txt\">Instance Id</div>" >> index.html
-echo "                        <div class=\"instance-card-inf__title\">$META_INST_ID</div>" >> index.html
+echo "                        <div class=\"instance-card-inf__title\">" $META_INST_ID "</div>" >> index.html
 echo "                    </div>" >> index.html
 echo "                    <div class=\"instance-card-inf__item\">" >> index.html
 echo "                        <div class=\"instance-card-inf__txt\">Instance Type</div>" >> index.html
-echo "                        <div class=\"instance-card-inf__title\">$META_INST_TYPE</div>" >> index.html
+echo "                        <div class=\"instance-card-inf__title\">" $META_INST_TYPE "</div>" >> index.html
 echo "                    </div>" >> index.html
 echo "                    <div class=\"instance-card-inf__item\">" >> index.html
 echo "                        <div class=\"instance-card-inf__txt\">Availability Zone</div>" >> index.html
-echo "                        <div class=\"instance-card-inf__title\">$META_INST_AZ</div>" >> index.html
+echo "                        <div class=\"instance-card-inf__title\">" $META_INST_AZ "</div>" >> index.html
 echo "                    </div>" >> index.html
 echo "                    <div class=\"instance-card-inf__item\">" >> index.html
 echo "                        <div class=\"instance-card-inf__txt\">Public IP</div>" >> index.html
-echo "                        <div class=\"instance-card-inf__title\">$META_PUBLIC_IP</div>" >> index.html
+echo "                        <div class=\"instance-card-inf__title\">" $META_PUBLIC_IP "</div>" >> index.html
 echo "                    </div>" >> index.html
 echo "                    <div class=\"instance-card-inf__item\">" >> index.html
 echo "                        <div class=\"instance-card-inf__txt\">Private IP</div>" >> index.html
-echo "                        <div class=\"instance-card-inf__title\">$META_PRIVATE_IP</div>" >> index.html
+echo "                        <div class=\"instance-card-inf__title\">" $META_PRIVATE_IP "</div>" >> index.html
 echo "                    </div>" >> index.html
 echo "                </div>" >> index.html
 echo "            </div>" >> index.html
