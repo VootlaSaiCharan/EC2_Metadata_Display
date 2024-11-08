@@ -47,7 +47,7 @@ echo "        .instance-card {" >> index.html
 echo "            width: 100%;" >> index.html
 echo "            min-height: 380px;" >> index.html
 echo "            margin: auto;" >> index.html
-echo "            box-shadow: 12px 12px 2px 1px rgba(13, 28, 39, 0.4);" >> index.html
+echo "            box-shadow: 6px 3px 11px 2px rgba(13, 28, 39, 0.4);" >> index.html
 echo "            background: #fff;" >> index.html
 echo "            border-radius: 15px;" >> index.html
 echo "            border-width: 1px;" >> index.html
