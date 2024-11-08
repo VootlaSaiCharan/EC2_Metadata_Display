@@ -104,6 +104,14 @@ echo "                    <div class="instance-card-inf__item">" >> index.html
 echo "                        <div class="instance-card-inf__txt">Availability zone</div>" >> index.html
 echo "                        <div class="instance-card-inf__title">" $META_INST_AZ "</div>" >> index.html
 echo "                    </div>" >> index.html
+echo "                    <div class=\"instance-card-inf__item\">" >> index.html
+echo "                        <div class=\"instance-card-inf__txt\">Public IP</div>" >> index.html
+echo "                        <div class=\"instance-card-inf__title\">$META_PUBLIC_IP</div>" >> index.html
+echo "                    </div>" >> index.html
+echo "                    <div class=\"instance-card-inf__item\">" >> index.html
+echo "                        <div class=\"instance-card-inf__txt\">Private IP</div>" >> index.html
+echo "                        <div class=\"instance-card-inf__title\">$META_PRIVATE_IP</div>" >> index.html
+echo "                    </div>" >> index.html
 echo "                </div>" >> index.html
 echo "            </div>" >> index.html
 echo "        </div>" >> index.html
